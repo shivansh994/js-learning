@@ -46,7 +46,39 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLogged'));
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseinstructor: "Shivansh"
+}
+// course.courseinstructor
 
+const {courseinstructor} = course;
+
+console.log(courseinstructor);
+
+// const navbar = (PaymentResponse.company) => {    //  for this u can use its alternate which is more simple
+const navbar = ({company}) => {    // This is used for destructuring of objects
+
+}
+
+navbar(company = "hitesh")
+
+// This is not object its json we are calling API's.
+
+// {
+//     "name"= "Shivansh",
+//     "coursename"= "js in hindi",
+//     "price"= "free"
+// }
+
+
+//   These are used for API 
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
 
