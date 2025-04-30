@@ -44,3 +44,4 @@ console.log(addTwo(3,4));
 const myArray = [2, 3, 4, 5, 6, 7]
 
 console.log(myArray);
+// myArray.forEach();
