@@ -5,6 +5,12 @@ const myNums = [1, 2, 3]
 //     return acc + currval
 // }, 0)
 
+// const name = {
+//     username : shivansh,
+//     dob : four-july
+ 
+// }
+
 const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 
 console.log(myTotal);
